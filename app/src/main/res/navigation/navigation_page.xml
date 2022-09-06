@@ -7,6 +7,16 @@
 
     <fragment
         android:id="@+id/fragment1"
-        android:name=""
+        android:name="com.example.lesson10bottomnavigation.fragment.FragmentPage"
+        tools:layout="@layout/fragment_page" />
 
+    <fragment
+        android:id="@+id/fragment2"
+        android:name="com.example.lesson10bottomnavigation.fragment.FragmentPage"
+        tools:layout="@layout/fragment_page" />
+
+    <fragment
+        android:id="@+id/fragment3"
+        android:name="com.example.lesson10bottomnavigation.fragment.FragmentPage"
+        tools:layout="@layout/fragment_page" />
 </navigation>
